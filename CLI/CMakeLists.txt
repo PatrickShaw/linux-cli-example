@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 3.6)
-project(CLI)
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Werror")
-set(SOURCE_FILES main.c operation.h advanced_operations.h basic_operations.h new_file.c new_file.h copy.c copy.h find.c find.h run.c run.h halt.c halt.h clear.c clear.h change_directory.c change_directory.h list_directory.c list_directory.h echo.c echo.h quit.c quit.h pause.c pause.h help.c help.h validation.c validation.h basic_operations.c advanced_operations.c)
-add_executable(CLI ${SOURCE_FILES})
