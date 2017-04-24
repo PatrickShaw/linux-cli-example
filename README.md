@@ -37,12 +37,12 @@ Stops executing the CLI program and terminates.
 `new `**`<file>`**
 Create a new file with name **`<file>`**.
 
-`cp `**`<old> `****`<new>`**
+`cp `**`<old> <new>`**
 Copy the contents of an existing file with name **`<old>`** to a new file with 
 
 `name `**`<new>`**
 
-`find `**`<char> `****`<file>`**
+`find `**`<char> <file>`**
 Displays the number of occurrence of the character **`<char>`** in an existing file with name **`<file>`**.
 
 `run `**`<program>`**
