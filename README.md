@@ -1,6 +1,16 @@
-# Command Line Interpreter
-## FTI2070 Assignment 1
-## Commands
+# Command line interpreter
+## FTI2070 Operating Systems - Assignment 1
+### Running the basic interpreter
+1. Navigate to and open a terminal in the Basic/bin folder
+2. Enter `./bin/basic_cli`
+3. The basic CLI should now be running. You may now enter commands into the CLI or type help to display the user manual.
+
+### Running the advanced interpreter
+1. Navigate to and open a terminal in the Advanced/bin folder
+2. Type `./bin/advanced_cli`
+3. The advanced CLI should now be running. You may now enter commands into the CLI or type help to display the user manual.
+
+### Commands
 `clear`
 Clears the output screen.
 `cd `**`<directory>`**
@@ -40,3 +50,13 @@ Execute any executable program with name **`<program>`**.
 
 `halt `**`<program>`**
 Stop executing the program with name **`<program>`**.
+
+### Using command arguments that include spaces
+The CLI seperates command arguments/parameters by spaces. However, command arguments can be combined by encapsulating them within double quotation marks.
+
+#### Example
+The following command will not work:
+`cp ./original file with space ./new file with whitespace`
+
+The following command will work:
+`cp "./original file with whitespace" "./new file with whitespace"`
